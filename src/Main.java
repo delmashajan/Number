@@ -12,19 +12,15 @@ public class Main {
         return smallest;
 
     }
-    public static int  reverse(int number)
-    {
+    public static void  reverse(int number) {
         {
-            if (number < 10)
-            {
+            if (number < 10) {
                 //prints the same number if the number is less than 10
                 System.out.println(number);
                 return;
-            }
-            else
-            {
+            } else {
                 System.out.print(number % 10);
-                reverse(number/10);
+                reverse(number / 10);
             }
         }
 
