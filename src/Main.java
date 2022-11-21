@@ -6,6 +6,12 @@ public class Main {
         return largest;
 
     }
+    public static double smallest(double a, double b, double c){
+
+        double smallest = c < (a < b ? a : b) ? c : ((a < b) ? a : b);
+        return smallest;
+
+    }
 
 
     public static void main(String[] args)
